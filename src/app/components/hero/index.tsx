@@ -1,4 +1,5 @@
 import { SearchBar } from "../search-bar";
+import { Button } from "../button";
 
 export const Hero = () => {
   return (
@@ -10,6 +11,7 @@ export const Hero = () => {
         <h1 className="my-5 text-4xl">BIRD WATCHER</h1>
         <h2 className="text-8xl">Where Feathers Tell Tales</h2>
         {/* <SearchBar /> */}
+        <Button />
       </div>
       <video
         autoPlay
